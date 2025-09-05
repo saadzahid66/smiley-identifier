@@ -88,7 +88,7 @@ st.title("📟 HoN Smiley Identifier")
 st.divider()
 
 # --- Sidebar Input ---
-st.sidebar.image("happyornot_logo.svg", use_column_width=True)
+st.sidebar.image("happyornot_logo.svg", use_container_width=True)
 st.sidebar.markdown("<br><br>", unsafe_allow_html=True)
 serial_input = st.sidebar.text_input("Enter Serial Number", "").upper()
 submit = st.sidebar.button("Enter")
@@ -133,11 +133,11 @@ if submit and serial_input:
         device_name = parsed.get("device", "")
         # Map device to image file path
         device_images = {
-            "Smiley Mini": "images/mini_standard.png",
+            "Smiley Mini": "mini_standard.png",
             "Smiley Terminal (Standard, Table, Rail)": "images/smiley_terminal.png",
             "Smiley Wall (Wall attachment)": "images/smiley_wall.png",
             "Smiley Touch": "images/smiley_touch.png",
             "Smiley Touch with camera hole": "images/smiley_touch_camera.png"
         }
         img_path = device_images.get(device_name, "mini_standard.png")
-        st.image(img_path, caption=device_name, use_column_width=True)
+        st.image(img_path, caption=device_name, use_container_width=True)
