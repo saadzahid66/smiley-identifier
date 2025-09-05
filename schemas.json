@@ -1,0 +1,106 @@
+{
+  "SmileyTouch": {
+    "formats": ["YYWWTGRHWDXXXX", "YYWWCGRHWDXXXX"],
+    "type": {
+      "T": "Smiley Touch",
+      "C": "Smiley Touch with camera hole"
+    },
+    "generation": {
+      "1": "SM-T585 (T1000)",
+      "2": "SM-T595 (T1100)",
+      "3": "SM-T515 (T3100)",
+      "4": "SM-T505 (T4100)",
+      "5": "SM-X205 (T5100)",
+      "6": "SM-X216 (T6100)"
+    },
+    "radio": {
+      "1": "LTE",
+      "2": "WIFI (reserved, not in production)"
+    },
+    "hardware": {
+      "0": "VESA compatible, 0.5m USB",
+      "1": "Free (legacy floor model)",
+      "2": "Free (legacy wall model)"
+    },
+    "cables": {
+      "00": "Random USB cables (Zhenfu/Juicebit mix)",
+      "01": "JuiceBitz UI cable + Zhenfu frame/extension",
+      "02": "All Zhenfu",
+      "10": "Random USB + antimicrobial screen protector (from 44/2020)",
+      "12": "All Zhenfu + antimicrobial protector (from 44/2020)",
+      "13": "One 5m USB-C cable, no connectors",
+      "30": "Touch A-cover with larger window (no antimicrobial)"
+    }
+  },
+
+  "SmileyTerminal": {
+    "format": "YYWWTGRHWDXXXX",
+    "type": {
+      "V": "Smiley Terminal (Standard, Table, Rail)",
+      "X": "Smiley Wall (Wall attachment)"
+    },
+    "generation": {
+      "1": "Current case (v1)",
+      "3": "Current case (v3)"
+    },
+    "radio": {
+      "3": "u-blox SARA-U201 (3G JPN)",
+      "4": "u-blox SARA-G350 (2G)",
+      "5": "u-blox LISA-RC200 (CDMA)",
+      "6": "u-blox SARA-U270 (3G Global)",
+      "7": "u-blox SARA-U260 (3G US)",
+      "8": "u-blox SARA-R410M (CAT NB1 & M1)",
+      "9": "u-blox SARA-N211 (CAT NB1)",
+      "A": "u-blox SARA-R510S-00B (CAT M1)",
+      "B": "u-blox SARA-N310 (CAT NB2)",
+      "C": "u-blox SARA-R510S-01B (CAT NB2 & M1)",
+      "D": "u-blox Lexi R10011D (4G)"
+    },
+    "hardware": {
+      "R3-1": "SARA-U201-63B-02",
+      "R4-1": "SARA-G350-02S-01",
+      "R6-1": "SARA-U270-00S-02",
+      "R7-1": "SARA-U260-00S-02",
+      "R8-1": "SARA-R410M-02B-01",
+      "RA-1": "SARA-R510S-00B-00",
+      "RB-1": "SARA-N310-00X-00",
+      "RC-1": "SARA-R510S-01B-00",
+      "RD-1": "LEXI-R10011D"
+    },
+    "changelog": {
+      "01": "Components as of 1.6.2022",
+      "02": "Changed component X to Y / new crystal"
+    }
+  },
+
+  "SmileyMini": {
+    "format": "YYWWTGRHWDXXXX",
+    "type": {
+      "M": "Smiley Mini"
+    },
+    "generation": {
+      "1": "SARA Module",
+      "2": "LEXI Module"
+    },
+    "radio": {
+      "8": "u-blox SARA-R410M (CAT NB1 & M1)",
+      "9": "u-blox SARA-N211 (CAT NB1)",
+      "A": "u-blox SARA-R510S-00B (LTE-M)",
+      "B": "u-blox SARA-N310 (NB-IoT)",
+      "C": "u-blox SARA-R510S-01B (LTE-M)",
+      "D": "u-blox Lexi R10011D (4G)"
+    },
+    "hardware": {
+      "R8-0": "SARA-R410M-02B-01",
+      "RA-0": "SARA-R510S-00B-00",
+      "RB-0": "SARA-N310-00X-00",
+      "RC-0": "SARA-R510S-01B-00",
+      "RD-0": "Lexi R10011D"
+    },
+    "changelog": {
+      "01": "Components as of 1.6.2022",
+      "02": "Changed component X to Y / new crystal",
+      "03": "Without G sensor"
+    }
+  }
+}
