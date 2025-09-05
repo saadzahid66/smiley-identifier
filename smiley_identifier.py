@@ -139,5 +139,5 @@ if submit and serial_input:
             "Smiley Touch": "images/smiley_touch.png",
             "Smiley Touch with camera hole": "images/smiley_touch_camera.png"
         }
-        img_path = device_images.get(device_name, "images/mini_standard.png")
+        img_path = device_images.get(device_name, "mini_standard.png")
         st.image(img_path, caption=device_name, use_column_width=True)
