@@ -258,7 +258,7 @@ if submit and serial_input:
             }
 
             # Get the image path, fallback to default logo
-            img_path = device_images.get(device_key, "images/happyornot_logo.svg")
+            img_path = device_images.get(device_key, "happyornot_logo.svg")
             img_caption = device_name if device_key in device_images else "[ Image Not Available ]"
 
             # Display the image
