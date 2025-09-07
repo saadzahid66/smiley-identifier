@@ -192,7 +192,7 @@ def parse_serial(serial):
     return result, errors
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Smiley Identifier", page_icon="happyornot_logo_cropped.svg", layout="wide")
+st.set_page_config(page_title="Smiley Identifier", page_icon="happyornot_logo.svg", layout="wide")
 st.title("HoN Smiley Identifier")
 st.write("")
 
