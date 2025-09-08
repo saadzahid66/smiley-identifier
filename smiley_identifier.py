@@ -210,7 +210,7 @@ with st.sidebar.form("serial_form"):
 
 # --- Main Screen Output ---
 if submit and serial_input:
-    serial_input = serial_input.replace(" ", "")
+    serial_input = serial_input.strip()
     parsed, errors = parse_serial(serial_input)
     
     for e in errors:
